@@ -190,7 +190,7 @@ ip access-list extended acl-local-isp-out
  permit ip 43.255.112.0 0.0.3.255 any
  permit ip 103.5.124.0 0.0.3.255 any
  permit ip 146.88.200.0 0.0.7.255 any
-  remark #SINET#
+ remark #SINET#
  permit ip 43.245.202.0 0.0.0.255 any
  permit ip 43.245.203.0 0.0.0.255 any
  permit ip 96.9.64.0 0.0.31.255 any
