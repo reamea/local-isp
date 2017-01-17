@@ -90,6 +90,13 @@ ip access-list extended acl-local-isp-in
  permit ip any 43.255.112.0 0.0.3.255
  permit ip any 103.5.124.0 0.0.3.255
  permit ip any 146.88.200.0 0.0.7.255
+ remark #SINET#
+ permit ip any 43.245.202.0 0.0.0.255
+ permit ip any 43.245.203.0 0.0.0.255
+ permit ip any 96.9.64.0 0.0.31.255
+ permit ip any 103.14.248.0 0.0.3.255
+ permit ip any 180.178.124.0 0.0.3.255
+ permit ip any 203.217.168.0 0.0.3.255
 
 ip access-list extended acl-local-isp-out
  remark #ONLINE#
@@ -183,3 +190,10 @@ ip access-list extended acl-local-isp-out
  permit ip 43.255.112.0 0.0.3.255 any
  permit ip 103.5.124.0 0.0.3.255 any
  permit ip 146.88.200.0 0.0.7.255 any
+  remark #SINET#
+ permit ip 43.245.202.0 0.0.0.255 any
+ permit ip 43.245.203.0 0.0.0.255 any
+ permit ip 96.9.64.0 0.0.31.255 any
+ permit ip 103.14.248.0 0.0.3.255 any
+ permit ip 180.178.124.0 0.0.3.255 any
+ permit ip 203.217.168.0 0.0.3.255 any
